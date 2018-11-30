@@ -9,7 +9,7 @@ export class LikeComponent implements OnInit {
 
   isLike = false;
   bgColor = "red";
-  testo = "NON MI PIACE!!";
+  testo = "MI PIACE ASSAI";
 
   clickedButton = () => {
     this.isLike = !this.isLike;
